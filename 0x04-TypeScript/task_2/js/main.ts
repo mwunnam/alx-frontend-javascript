@@ -115,3 +115,18 @@ function executeWork(employee: Teacher | Director){
     return employee.workTeacherTasks();
   }
 }
+
+
+// Task 7
+// Define a string Literal type
+type Subjects = 'Math' | 'History';
+
+
+// Function with the string litral type
+function teachClass(todayClass: Subjects): string {
+ if (todayClass === 'Math') {
+   return 'Teaching Math';
+ } else {
+  return 'Teaching History';
+ }
+}
