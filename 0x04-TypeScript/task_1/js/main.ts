@@ -16,12 +16,10 @@ interface printTeacherFunction {
   (firstName: string, lastName: string): string;
 }
 
-function printTeacher();
+function printTeacher({firstName, lastName }: Teacher): string {
+  return `${firstName[0]}. ${lastName}`
+}
 
-const printTeacher: printTeacherFunction = function (firstName, lastName) {
-  firstName = firstName[0]
-  return `${firstName}. ${lastName}`;
-};
 
 
 // Interface for the class constructor
