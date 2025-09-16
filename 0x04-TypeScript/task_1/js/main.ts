@@ -35,7 +35,7 @@ interface StudentClassInterface {
 }
 
 // Class implementing the student interface
-class StudentClass implements StudentClassInterface {
+class StudentClass {
   private firstName: string;
   private lastName: string;
 
