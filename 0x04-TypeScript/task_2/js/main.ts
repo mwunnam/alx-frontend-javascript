@@ -72,7 +72,7 @@ type Subjects = 'Math' | 'History';
 
 
 // Function with the string litral type
-function teachClass(todayClass: Subjects): string {
+function teachClass(todayClass:Subjects): string {
  if (todayClass === 'Math') {
    return 'Teaching Math';
  } else {
